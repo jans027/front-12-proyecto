@@ -1,0 +1,99 @@
+@use 'variables';
+@use 'pagina1';
+@use'detalles';
+@use'profile';
+@use'loginUsuarios';
+@use 'login-reguistro';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: variables.$fuentePrincipal;
+}
+.contenedorPrincipal1{
+    width: 100%;
+    margin: 6.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .section1{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        border-radius: 1em;
+        background-color: variables.$color1;
+        .section1Img{
+            margin: 0 auto;
+            width: 20em;
+            height: 20em;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 1em 0;
+            @media(max-width:800px){
+                width: 15em;
+                height: 15em;
+            }
+            img{
+                border: 2px solid rgb(29, 140, 148);
+                height: 100%;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+    }
+    .section2{
+        text-align: center;
+        width: 80%;
+        margin: 5em 0;
+        p{
+            font-size: .8em;
+        }
+    }
+    .section3{
+        width: 80%;
+        margin: 1em;
+        text-align: center;
+        .boton1{
+            text-decoration: none;
+            padding: 1em 2em;
+            border-radius: 1.8em;
+            color: variables.$color6;
+            background-color: variables.$color5;
+            span{
+                background-color: variables.$color2;
+                padding: .5em 1.3em;
+                border-radius: 1.2em;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

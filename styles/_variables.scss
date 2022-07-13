@@ -1,0 +1,50 @@
+
+$color1:#FED45B;
+$color2:#23F3DF;
+$color3:#FF5858;
+$color4:#80DBD2;
+$color5:#333333;
+$color6:#ffffff;
+$color7:#afafaf;
+$fuentePrincipal:'Poppins', sans-serif;
+
+
+
+
+@mixin centrarContenedor{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3.5em;
+}
+
+
+@mixin sombraContenedor{
+    border: none;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.671); 
+                box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.575);
+}
+
+@mixin primerBoton{
+    background-color: variables.$color2;
+    color: variables.$color6;
+    border-radius: 50%;
+    padding: .2em .5em;
+    font-size: 1.5em;
+    margin: 0 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

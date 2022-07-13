@@ -1,0 +1,110 @@
+@use 'variables';
+
+
+.contenedorIngreso{
+    width: 40vw;
+    margin: 4em auto;
+    @include variables.sombraContenedor;
+    border-radius:1.5em;
+    @media (max-width:500px) {
+        width: 96%;
+    }
+    @media (min-width:501px) and (max-width:800px) {
+        width: 70%;
+    }
+    .formularioReguistro {
+        padding-top: 2em;
+        input {
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            padding: 0.9em 0.5em;
+            background: #f2f2f2;
+            border: 0;
+            width: 80%;
+            color: var(--secundario);
+            font-size: 13px;
+            border-radius: 5px;
+        }
+        .tituloRegistro{
+            text-align: center;
+            color: var(--backgroundNav);
+            margin-bottom: 35px;
+            
+        }
+        .textArea{
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+            padding: .8em;
+            border: 0;
+            background: #f2f2f2;
+            border-radius: 1.5em;
+            
+        }
+        .labelArchivo{
+            display: flex;
+            margin: 0 auto;
+            width: 80%;
+            font-size: 1em;
+            padding: .5em;
+        }
+    }
+    .botonRegistro {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        border: 0;
+        background: variables.$color1;
+        color: variables.$color6;
+        text-transform: uppercase;
+        padding: 15px;
+        width: 75%;
+        border-radius: 3em;
+        font-size: 18px;
+        &:hover {
+            box-shadow: 0 0 20px 0 #00000033, 0 5px 5px 0 #0000003d;
+            transition: all .5s ease-in-out;
+            background: variables.$color4;
+        }
+    }
+    p{
+        font-size: 1.5em;
+        display: flex;
+        justify-content: center;
+        padding: 1.5em 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
